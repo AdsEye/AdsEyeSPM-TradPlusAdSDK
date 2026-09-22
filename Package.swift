@@ -18,10 +18,6 @@ let package = Package(
                 .target(name: "TradPlusAds"),
                 .product(name: "TPExchange", package: "adseyespm-tpexchange")
             ],
-            resources: [
-                .copy("Resources/TradPlusAds.bundle")
-            ],
-            publicHeadersPath: "include",
             linkerSettings: [
                 .linkedFramework("CoreGraphics"),
                       .linkedFramework("Foundation"),
